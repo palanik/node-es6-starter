@@ -1,2 +1,8 @@
-const user = 'World';
-process.stdout.write(`Hello ${user}!\n`);
+
+export default function hello(user = 'World') {
+  return `Hello ${user}!\n`;
+}
+
+if (require.main === module) {
+  process.stdout.write(hello());
+}
