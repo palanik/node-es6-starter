@@ -1,4 +1,6 @@
 # node-es6-starter
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/palanik/node-es6-starter.svg)](https://greenkeeper.io/)
 Node.js ES6 (aka ES2015) starter with [Babel.js](https://babeljs.io/) & [ESLint](http://eslint.org/)
 
 1. Write node.js source code in ES6 syntax.
