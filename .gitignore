@@ -41,3 +41,5 @@ lib
 
 #mac specific
 .DS_Store
+
+package-lock.json
