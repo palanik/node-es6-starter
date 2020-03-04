@@ -1,6 +1,7 @@
 
-export default function hello(user = 'World') {
-  return `Hello ${user}!\n`;
+export default function hello(user = '    World') {
+  const u = user.trimStart().trimEnd();
+  return `Hello ${u}!\n`;
 }
 
 if (require.main === module) {
